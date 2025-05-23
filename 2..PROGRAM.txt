@@ -1,0 +1,19 @@
+** Write a function that takes a student objects as an argument and prints the students information **
+
+def_init_(self,name,marks)
+
+self.name = name
+
+self.marks = marks
+
+def print_student_info(student):
+
+    print(f"name:{student.name},marks:{students.marks}")
+
+s1 = student("tillu",92)
+
+print_student_info(s1)
+
+OUTPUT:
+
+Name : tillu,marks:92

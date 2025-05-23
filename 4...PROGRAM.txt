@@ -1,0 +1,25 @@
+** WRITE A FUNCTION THAT RETURNS A LIST OF 3 bOOK OBJECTS **
+
+class Book:
+
+    def __init__ (self,title):
+
+        self.title = title
+
+def create_book_list():
+
+    return [Book("python 101"),Book("AI Basics"),Book("Data Science")]
+
+books = create_book_list()
+
+for b in books:
+
+    print("Book title : ",b.title)
+
+OUTPUT:
+
+Book title :  python 101
+
+Book title :  AI Basics
+
+Book title :  Data Science

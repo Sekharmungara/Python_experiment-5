@@ -1,0 +1,23 @@
+** WRITE A FUNCTION THAT RETURNS A CIRCLE OBJECT CREATED WITH A GIVEN RADIUS **
+
+class Circle:
+
+    def _init_ (self,radius):
+
+        self.radius = radius
+
+    def area (self):
+
+        return 3.14 *  self.radius * self.radius
+
+def get_circle(r):
+
+    return Circle(r)
+
+c = get_circle(5)
+
+print("Area of circle : ",c.area())
+
+OUTPUT:
+
+Area of circle : 78.5
